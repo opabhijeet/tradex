@@ -36,7 +36,7 @@ const App = () => {
         </p>
 
         <button
-          className="text-2xl mt-[40px] w-[50%] md:w-[30%] h-[60px] bg-gradient-to-r from-[#00e6e6] to-[#00a9a9] text-gray-800 text-center font-semibold rounded-full"
+          className="text-xl mt-[40px] w-[50%] md:w-[30%] h-[60px] bg-gradient-to-r from-[#00e6e6] to-[#00a9a9] text-gray-800 text-center font-semibold rounded-full"
           style={{
             background: "linear-gradient(-133deg, #00e6e6 0%, #00a9a9 100%)",
           }}
