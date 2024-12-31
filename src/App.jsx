@@ -31,11 +31,11 @@ const App = () => {
       {/* Main Content */}
       <div className="text-left mt-[80px] pl-[20px] md:pl-[30px] text-[#00E6E6] flex-grow">
         {/* Trade Paragraph */}
-        <h1 className="text-l md:text-2xl font-bold mb-4 leading-[35px] md:leading-[50px] tracking-[3px]">
+        <h1 className="text-xl md:text-2xl font-bold mb-4 leading-[35px] md:leading-[50px] tracking-[3px]">
           Trade on the Outcome of Global Events
         </h1>
         {/* Smaller Paragraph */}
-        <p className="text-[13px] md:text-lg mb-6 text-white leading-[20px] md:leading-[35px]">
+        <p className="text-base md:text-lg mb-6 text-white leading-[20px] md:leading-[35px]">
           &quot; Use leverage to bet on real-world events <br />
           and shape your portfolio in a new way. &quot;
         </p>
