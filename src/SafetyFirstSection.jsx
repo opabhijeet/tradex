@@ -109,10 +109,34 @@ const SafetyFirstSection = () => {
       </div>
 
       {/* Intuitive Section */}
-       
+      <div className="relative w-full  px-6 py-12 bg-[#002727] mt-8 rounded-xl md:rounded-2xl lg:rounded-3xl">
+        <div className="w-full tracking-wider flex flex-col items-start justify-start">
+          {/* Heading */}
+          <h2 className="text-[#00E6E6] text-left text-xl md:text-3xl font-medium mb-4 leading-tight">
+            Intuitive <br />
+            <span className="text-white text-2xl">User Interface</span>
+          </h2>
 
+          {/* Description */}
+          <p className="text-white text-sm md:text-base leading-relaxed max-w-2xl mb-4 text-left">
+            EveryX is designed with user-friendly navigation, making it easy for
+            users to create predictions and manage trades.
+          </p>
+          <p className="text-white text-sm md:text-base leading-relaxed max-w-2xl text-left mb-4">
+            Whether you're a beginner or an experienced trader, the platform
+            ensures a seamless experience.
+          </p>
 
-
+          {/* Image */}
+          <div className="relative w-full max-w-2xl overflow-hidden rounded-lg md:rounded-xl lg:rounded-2xl shadow-md">
+            <img
+              src="/uipic.svg"
+              alt="User Interface Preview"
+              className="w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
