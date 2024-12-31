@@ -70,7 +70,7 @@ const SafetyFirstSection = () => {
       {/* Carousel */}
       
 <div
-  className="relative w-full flex overflow-hidden snap-x snap-mandatory px-6 ml-8" // Added px-6 for horizontal padding
+  className="relative w-[100% - 32px] flex overflow-hidden snap-x snap-mandatory px-6 ml-8" // Added px-6 for horizontal padding
   style={{ maxWidth: "100vw" }}
   onTouchStart={handleTouchStart}
   onTouchMove={handleTouchMove}
