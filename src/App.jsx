@@ -41,7 +41,7 @@ const App = () => {
         </p>
 
         <button
-          className="mt-[80px] w-[165px] h-[49.1px] bg-gradient-to-r from-[#00e6e6] to-[#00a9a9] text-white text-center font-semibold rounded-full"
+          className="mt-[80px] w-[180px] h-[49.1px] bg-gradient-to-r from-[#00e6e6] to-[#00a9a9] text-white text-center font-semibold rounded-full"
           style={{
             background: "linear-gradient(-133deg, #00e6e6 0%, #00a9a9 100%)",
           }}
