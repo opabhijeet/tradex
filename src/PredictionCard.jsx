@@ -27,13 +27,13 @@ const PredictionCard = () => {
       </p>
       <div className="h-6 md:h-9 lg:h-11 mb-3"></div>
       {/* Buttons */}
-      <div className="flex flex-wrap justify-center gap-2">
+      <div className="flex flex-wrap justify-center gap-3">
         {/* First Row */}
-        <div className="flex gap-2">
+        <div className="flex gap-3">
           {["Sports", "Crypto", "Politics", "Weather"].map((category) => (
             <div
               key={category}
-              className="px-2 py-1 md:px-3 md:py-1.5 rounded-full cursor-pointer text-xs md:text-sm transition-colors bg-white bg-opacity-10 text-[#00e6e6] hover:bg-[#00e3e3] hover:text-[#001d1d]"
+              className="px-3 py-1.5 md:px-4 md:py-2 rounded-full cursor-pointer text-xs md:text-sm transition-colors bg-white bg-opacity-10 text-[#00e6e6] hover:bg-[#00e3e3] hover:text-[#001d1d]"
             >
               {category}
             </div>
@@ -41,11 +41,11 @@ const PredictionCard = () => {
         </div>
 
         {/* Second Row */}
-        <div className="flex gap-2 mt-2">
+        <div className="flex gap-3">
           {["Science", "Culture", "Tech"].map((category) => (
             <div
               key={category}
-              className="px-2 py-1 md:px-3 md:py-1.5 rounded-full cursor-pointer text-xs md:text-sm transition-colors bg-white bg-opacity-10 text-[#00e6e6] hover:bg-[#00e3e3] hover:text-[#001d1d]"
+              className="px-3 py-1.5 md:px-4 md:py-2 rounded-full cursor-pointer text-xs md:text-sm transition-colors bg-white bg-opacity-10 text-[#00e6e6] hover:bg-[#00e3e3] hover:text-[#001d1d]"
             >
               {category}
             </div>
